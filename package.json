@@ -2,11 +2,10 @@
   "name": "startbootstrap-new-age",
   "title": "New Age",
   "version": "3.3.7",
-  "homepage": "http://startbootstrap.com/template-overviews/new-age",
+  "homepage": "https://446daydayup.github.io/",
   "author": "Start Bootstrap",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
@@ -22,7 +21,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
   },
   "dependencies": {
     "simple-line-icons": "^2.3.2"

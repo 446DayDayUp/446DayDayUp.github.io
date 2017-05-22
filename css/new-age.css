@@ -302,7 +302,7 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background-image: url('../img/uw.jpg');
   padding: 250px 0;
 }
 section.cta .cta-content {
@@ -397,6 +397,14 @@ footer ul li a.active {
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
   background: linear-gradient(#fdcc52, #fdc539);
 }
+
+.team {
+  background: #50fdcc;
+  background: -webkit-linear-gradient(#81c4fe, #b4dcfe);
+  background: linear-gradient(#81c4fe, #b4dcfe);
+  color: white；
+}
+.
 .text-primary {
   color: #fdcc52;
 }
