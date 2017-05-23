@@ -150,14 +150,11 @@ header {
   position: relative;
   width: 100%;
   min-height: auto;
-  overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
+  background: url("../img/bg.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 header .header-content {
   text-align: center;
@@ -173,6 +170,7 @@ header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 30px;
+  color: white;
 }
 header .header-content .header-content-inner .list-badges {
   margin-bottom: 25px;
@@ -393,15 +391,15 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #ff9f81;
+  background: -webkit-linear-gradient(#ff9f81, #ffc6b4);
+  background: linear-gradient(#ff9f81, #ffc6b4);
 }
 
 .team {
-  background: #50fdcc;
-  background: -webkit-linear-gradient(#81c4fe, #b4dcfe);
-  background: linear-gradient(#81c4fe, #b4dcfe);
+  background: #b4dcfe;
+  background: -webkit-linear-gradient(#b4dcfe, #82c5fd);
+  background: linear-gradient(#b4dcfe, #82c5fd);
   color: white；
 }
 .
